@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>Precisely Responsive Web Help</name>
+    <description>This is the Precisely publishing template.</description>
+    <webhelp>
+        <preview-image file="precisely_responsive.png"/>
+        <parameters>
+			<parameter name="webhelp.show.main.page.tiles" value="yes"/>
+			<parameter name="webhelp.show.top.menu" value="no"/>
+			<parameter name="webhelp.publication.toc.links" value="all"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
+			<parameter name="webhelp.search.ranking" value="false"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.figurelink.style" value="TITLE"/>
+            <parameter name="args.tablelink.style" value="TITLE"/>
+			<parameter name="force-unique" value="true"/>
+			<parameter name="webhelp.show.indexterms.link" value="no"/>
+			<parameter name="webhelp.favicon" value="no"/>
+			<!--<parameter name="webhelp.logo.image" value="resources\images\precisely_p_logo.png"/>-->
+            
+        </parameters>
+        <resources>
+            <css file="oxygen.css"/>
+            <css file="notes.css"/>
+            <css file="precisely_responsive.css"/>
+            <css file="footer-fix.css"/>
+			<css file="cdn-fonts.css"/>
+			<logo file="resources/images/Precisely_wordmark_rgb_white.svg" target-url="https://www.precisely.com" alt="Precisely"/>
+			<favicon file="resources/images/favicon.png"/>
+            <fileset>
+                <include name="resources/**/*"/>
+                <exclude name="resources/**/*.svn"/>
+                <exclude name="resources/**/*.git"/>
+            </fileset>
+        </resources>
+        <xslt>
+            <!--<extension file="xsl/precisely_responsive.xsl" id="com.oxygenxml.webhelp.xsl.createMainPage"/>-->
+            <extension file="xsl/precisely_responsive.xsl" id="com.oxygenxml.webhelp.xsl.dita2webhelp"/>
+            <extension file="xsl/precisely_responsive.xsl" id="com.oxygenxml.webhelp.xsl.createSearchPage"/>
+            <extension file="xsl/precisely_responsive.xsl" id="com.oxygenxml.webhelp.xsl.createIndexTermsPage"/>
+        </xslt>
+        <tags>
+            <tag type="other">Precisely Responsive</tag>
+            <tag type="other">Responsive</tag>
+        </tags>
+		<html-fragments>
+            <!--<fragment file="fragments/data_tables.xml" placeholder="webhelp.fragment.head"/>-->
+			<fragment file="fragments/footer.xml" placeholder="webhelp.fragment.footer"/>
+        </html-fragments>
+    </webhelp>
+</publishing-template>

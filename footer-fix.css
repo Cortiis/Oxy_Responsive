@@ -1,0 +1,51 @@
+/* Pushes footer at the bottom of the page.  */
+.wh_main_page .wh_content_area {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wh_main_page {
+	background-color: #E4E4E4;
+}
+
+#wh_topic_container,
+.wh_content_area {
+    flex-grow: 1;
+}
+
+.wh_footer {
+	margin: 0;
+	padding: 0;
+	/*background: #39006b;*/
+	background: #F2F1F3;
+	font-size: 14px;
+	font-family: Precisely,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+	font-weight: 400;
+	color: #444;
+	/*position: fixed;*/
+	min-height: 64px;
+}
+
+.wh_footer a {
+	color: #8017e1!important;
+}
+
+.mx-auto {
+	font-size: 400;
+	padding: 5px 6% 5px 6%;
+}
+
+.wh_index_terms span.wh_first_letter {
+	color: #39006b;
+}
+
+
+.title.topictitle1, h1, h2, h3, h4 {
+	font-family: Precisely,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+	font-weight: 400!important;
+	color: #8017e1!important;
+	line-height: 160%!important;
+}
+
+
+

@@ -1,0 +1,219 @@
+
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  border: none;
+  border-radius: 4px;
+  
+}
+
+/*notes-content-two-lines*/
+span.note__title {
+  display: block;
+  font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+  
+}
+
+/*notes-colors-colorful*/
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  background-color: #eee;
+  border-color: #0078A0;
+}
+*[class~="topic/note"].note_danger,
+*[class~="topic/note"].note_caution {
+  background-color: #eee;
+  border-color: #606060;
+}
+*[class~="topic/note"].note_warning,
+*[class~="topic/note"].note_attention,
+*[class~="topic/note"].note_important {
+  background-color: #eee);
+  border-color: #FFCA2D;
+}
+*[class~="topic/note"].note_restriction {
+  background-color: #eee;
+  border-color: #FF342D;
+}
+
+.attentiontitle {
+  background-image:none !important; 
+  padding-left:0px !important;     
+}
+
+.notetitle {
+  background-image:none !important; 
+  padding-left:0px !important;      
+    /*Start Precisely
+  color: #3E53A4;*/
+  color: #39006B;
+  /*End Precisely*/
+}
+
+  /*Start Precisely
+.note {
+  color: #3E53A4;
+  background-color: #EBEDF5;
+  border-color: #C5CBE3;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #C5CBE3;
+} */
+
+.note {
+  background-image:none !important; 
+  color: #565358;
+  background-color: #f7f8f9;
+  border-color: #cbc8cc;
+  margin: 20px 0px;
+  padding: 10px 20px!important;
+  border-left: 4px solid #cbc8cc;
+  
+} 
+/*End Precisely*/
+
+.tiptitle {
+  background-image:none !important; 
+  padding-left:0px !important;      
+  /*Start Precisely
+  color: #3E53A4;*/
+  color: #39006B;
+/*End Precisely*/}
+
+  /*Start Precisely
+.tip {
+  color: #3E53A4;
+  background-color: #EBEDF5;
+  border-color: #C5CBE3;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #C5CBE3;
+}*/
+
+.tip {
+	background-image:none !important; 
+  color: #565358;
+  background-color: #EBEDF5;
+  border-color: #cbc8cc;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #cbc8cc;
+}
+/*End Precisely*/
+
+.noticetitle {
+  background-image:none !important; 
+  padding-left:0px !important;      
+  /*Start Precisely
+  color: #3E53A4;*/
+  color: #39006B;
+/*End Precisely*/
+}
+
+/*Start Precisely
+.notice {
+  color: #3E53A4;
+  background-color: #EBEDF5;
+  border-color: #C5CBE3;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #C5CBE3;
+}*/
+
+.notice {
+	background-image:none !important; 
+  color: #565358;
+  background-color: #EBEDF5;
+  border-color: #cbc8cc;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #cbc8cc;
+}
+/*End Precisely*/
+
+.importanttitle {
+  background-image:none !important;
+  padding-left:0px !important;
+  /*Start Precisely
+  color: #BE5000;*/
+  color:#fd7e08;
+  /*End Precisely*/
+}
+
+.important {
+	background-image:none !important; 
+    /*Start Precisely
+  color: #BE5000;*/
+  color:#fd7e08;
+  /*End Precisely*/
+  background-color: #FCF6F2;
+  border-color: #F2E1CC;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #F2E1CC;
+}
+
+.cautiontitle {
+  background-image:none !important;
+  padding-left:0px !important;
+    /*Start Precisely
+  color: #BE5000;*/
+  color:#fd7e08;
+  /*End Precisely*/
+}
+
+.caution {
+	background-image:none !important; 
+    /*Start Precisely
+  color: #BE5000;*/
+  color:#fd7e08;
+  /*End Precisely*/
+  background-color: #FCF6F2;
+  border-color: #F2E1CC;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #F2E1CC;
+}
+
+.restrictiontitle {
+  background-image:none !important;
+  padding-left:0px !important;
+  color: #8A6D3B;
+}
+
+.restriction {
+	background-image:none !important; 
+  background-color: #FCF8E3;
+  border-color: #FAEBCC;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #FAEBCC;
+}
+
+.warningtitle {
+  background-image:none !important;
+  padding-left:0px !important;
+  color: #DC0000;
+}
+
+.warning {
+	background-image:none !important; 
+  color: #DC0000;
+  background-color: #FEF2F2;
+  border-color: #F4B7B7;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #F4B7B7;
+}
+
+.dangertitle {
+  background-image:none !important;
+  padding-left:0px !important;
+  color: #DC0000;
+}
+
+.danger {
+	background-image:none !important; 
+  color: #DC0000;
+  background-color: #FEF2F2;
+  margin: 20px 0px;
+  padding: 20px;
+  border-left: 4px solid #F4B7B7;
+}

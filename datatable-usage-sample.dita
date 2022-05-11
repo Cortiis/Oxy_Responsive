@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+<concept id="chapterintro" xml:lang="en">
+
+	<title>Introduction</title>
+
+	<conbody>
+<foreign outputclass="html-embed">
+    <![CDATA[
+        <script>
+            var groupRow = 2;
+        </script>
+    ]]>
+</foreign>
+		<p>MapInfo EasyLoader is a utility to upload MapInfo TAB files to a remote database. The spatial information in the TAB files is maintained in the remote database and is available for viewing and analyzing in MapInfo Pro.</p>
+		
+		<p>For a list of what is new in this release of MapInfo EasyLoader, see <xref href="../history/chapterhistory.dita">History of Changes</xref>.</p>
+		<p otherprops="pdf">This is PDF and included</p>
+		<p otherprops="htmlhelp">This is HTMLHELP and excluded</p>
+	    
+	    <table frame="all" rowsep="1" colsep="1" outputclass="datatable">
+	        <tgroup cols="6">
+	            <colspec colname="c1" colnum="1" colwidth="1*"/>
+	            <colspec colname="c2" colnum="2" colwidth="1*"/>
+	            <colspec colname="c3" colnum="3" colwidth="1*"/>
+	            <colspec colname="c4" colnum="4" colwidth="1*"/>
+	            <colspec colname="c5" colnum="5" colwidth="1*"/>
+	            <colspec colname="c6" colnum="6" colwidth="1*"/>
+	            <thead>
+	                <row>
+	                    <entry>Name</entry>
+	                    <entry>Position</entry>
+	                    <entry>Office</entry>
+	                    <entry>Age</entry>
+	                    <entry>Start date</entry>
+	                    <entry>Salary</entry>
+	                </row>
+	            </thead>
+	            <tbody>
+	                <row>
+	                    <entry>Tiger Nixon</entry>
+	                    <entry>System Architect</entry>
+	                    <entry>Edinburgh</entry>
+	                    <entry>61</entry>
+	                    <entry>2011/04/25</entry>
+	                    <entry>$320,800</entry>
+	                </row>
+	                <row>
+	                    <entry>Garrett Winters</entry>
+	                    <entry>Accountant</entry>
+	                    <entry>Tokyo</entry>
+	                    <entry>63</entry>
+	                    <entry>2011/07/25</entry>
+	                    <entry>$170,750</entry>
+	                </row>
+	            </tbody>
+	        </tgroup>
+	    </table>
+	    
+	    
+	    <table frame="all" rowsep="1" colsep="1" outputclass="grouptable">
+			<tgroup cols="6">
+				<colspec colname="c1" colnum="1" colwidth="1*"/>
+				<colspec colname="c2" colnum="2" colwidth="1*"/>
+				<colspec colname="c3" colnum="3" colwidth="1*"/>
+				<colspec colname="c4" colnum="4" colwidth="1*"/>
+				<colspec colname="c5" colnum="5" colwidth="1*"/>
+				<colspec colname="c6" colnum="6" colwidth="1*"/>
+				<thead>
+					<row>
+						<entry>Name</entry>
+						<entry>Position</entry>
+						<entry>Office</entry>
+						<entry>Age</entry>
+						<entry>Start date</entry>
+						<entry>Salary</entry>
+					</row>
+				</thead>
+				<tbody>
+			<row>
+                <entry>Tiger Nixon</entry>
+                <entry>System Architect</entry>
+                <entry>Edinburgh</entry>
+                <entry>61</entry>
+                <entry>2011/04/25</entry>
+                <entry>$320,800</entry>
+            </row>
+            <row>
+                <entry>Garrett Winters</entry>
+                <entry>Accountant</entry>
+                <entry>Tokyo</entry>
+                <entry>63</entry>
+                <entry>2011/07/25</entry>
+                <entry>$170,750</entry>
+            </row>
+            <row>
+                <entry>Ashton Cox</entry>
+                <entry>Junior Technical Author</entry>
+                <entry>San Francisco</entry>
+                <entry>66</entry>
+                <entry>2009/01/12</entry>
+                <entry>$86,000</entry>
+            </row>
+            <row>
+                <entry>Cedric Kelly</entry>
+                <entry>Senior Javascript Developer</entry>
+                <entry>Edinburgh</entry>
+                <entry>22</entry>
+                <entry>2012/03/29</entry>
+                <entry>$433,060</entry>
+            </row>
+            <row>
+                <entry>Airi Satou</entry>
+                <entry>Accountant</entry>
+                <entry>Tokyo</entry>
+                <entry>33</entry>
+                <entry>2008/11/28</entry>
+                <entry>$162,700</entry>
+            </row>
+            <row>
+                <entry>Brielle Williamson</entry>
+                <entry>Integration Specialist</entry>
+                <entry>New York</entry>
+                <entry>61</entry>
+                <entry>2012/12/02</entry>
+                <entry>$372,000</entry>
+            </row>
+            <row>
+                <entry>Herrod Chandler</entry>
+                <entry>Sales Assistant</entry>
+                <entry>San Francisco</entry>
+                <entry>59</entry>
+                <entry>2012/08/06</entry>
+                <entry>$137,500</entry>
+            </row>
+            <row>
+                <entry>Rhona Davidson</entry>
+                <entry>Integration Specialist</entry>
+                <entry>Tokyo</entry>
+                <entry>55</entry>
+                <entry>2010/10/14</entry>
+                <entry>$327,900</entry>
+            </row>
+            <row>
+                <entry>Colleen Hurst</entry>
+                <entry>Javascript Developer</entry>
+                <entry>San Francisco</entry>
+                <entry>39</entry>
+                <entry>2009/09/15</entry>
+                <entry>$205,500</entry>
+            </row>
+            <row>
+                <entry>Sonya Frost</entry>
+                <entry>Software Engineer</entry>
+                <entry>Edinburgh</entry>
+                <entry>23</entry>
+                <entry>2008/12/13</entry>
+                <entry>$103,600</entry>
+            </row>
+            <row>
+                <entry>Jena Gaines</entry>
+                <entry>Office Manager</entry>
+                <entry>London</entry>
+                <entry>30</entry>
+                <entry>2008/12/19</entry>
+                <entry>$90,560</entry>
+            </row>
+            <row>
+                <entry>Quinn Flynn</entry>
+                <entry>Support Lead</entry>
+                <entry>Edinburgh</entry>
+                <entry>22</entry>
+                <entry>2013/03/03</entry>
+                <entry>$342,000</entry>
+            </row>
+            <row>
+                <entry>Charde Marshall</entry>
+                <entry>Regional Director</entry>
+                <entry>San Francisco</entry>
+                <entry>36</entry>
+                <entry>2008/10/16</entry>
+                <entry>$470,600</entry>
+            </row>
+            <row>
+                <entry>Haley Kennedy</entry>
+                <entry>Senior Marketing Designer</entry>
+                <entry>London</entry>
+                <entry>43</entry>
+                <entry>2012/12/18</entry>
+                <entry>$313,500</entry>
+            </row>
+            <row>
+                <entry>Tatyana Fitzpatrick</entry>
+                <entry>Regional Director</entry>
+                <entry>London</entry>
+                <entry>19</entry>
+                <entry>2010/03/17</entry>
+                <entry>$385,750</entry>
+            </row>
+            <row>
+                <entry>Michael Silva</entry>
+                <entry>Marketing Designer</entry>
+                <entry>London</entry>
+                <entry>66</entry>
+                <entry>2012/11/27</entry>
+                <entry>$198,500</entry>
+            </row>
+            <row>
+                <entry>Paul Byrd</entry>
+                <entry>Chief Financial Officer (CFO)</entry>
+                <entry>New York</entry>
+                <entry>64</entry>
+                <entry>2010/06/09</entry>
+                <entry>$725,000</entry>
+            </row>
+            <row>
+                <entry>Gloria Little</entry>
+                <entry>Systems Administrator</entry>
+                <entry>New York</entry>
+                <entry>59</entry>
+                <entry>2009/04/10</entry>
+                <entry>$237,500</entry>
+            </row>
+            <row>
+                <entry>Bradley Greer</entry>
+                <entry>Software Engineer</entry>
+                <entry>London</entry>
+                <entry>41</entry>
+                <entry>2012/10/13</entry>
+                <entry>$132,000</entry>
+            </row>
+            <row>
+                <entry>Dai Rios</entry>
+                <entry>Personnel Lead</entry>
+                <entry>Edinburgh</entry>
+                <entry>35</entry>
+                <entry>2012/09/26</entry>
+                <entry>$217,500</entry>
+            </row>
+            <row>
+                <entry>Jenette Caldwell</entry>
+                <entry>Development Lead</entry>
+                <entry>New York</entry>
+                <entry>30</entry>
+                <entry>2011/09/03</entry>
+                <entry>$345,000</entry>
+            </row>
+            <row>
+                <entry>Yuri Berry</entry>
+                <entry>Chief Marketing Officer (CMO)</entry>
+                <entry>New York</entry>
+                <entry>40</entry>
+                <entry>2009/06/25</entry>
+                <entry>$675,000</entry>
+            </row>
+            <row>
+                <entry>Caesar Vance</entry>
+                <entry>Pre-Sales Support</entry>
+                <entry>New York</entry>
+                <entry>21</entry>
+                <entry>2011/12/12</entry>
+                <entry>$106,450</entry>
+            </row>
+            <row>
+                <entry>Doris Wilder</entry>
+                <entry>Sales Assistant</entry>
+                <entry>Sydney</entry>
+                <entry>23</entry>
+                <entry>2010/09/20</entry>
+                <entry>$85,600</entry>
+            </row>
+            <row>
+                <entry>Angelica Ramos</entry>
+                <entry>Chief Executive Officer (CEO)</entry>
+                <entry>London</entry>
+                <entry>47</entry>
+                <entry>2009/10/09</entry>
+                <entry>$1,200,000</entry>
+            </row>
+            <row>
+                <entry>Gavin Joyce</entry>
+                <entry>Developer</entry>
+                <entry>Edinburgh</entry>
+                <entry>42</entry>
+                <entry>2010/12/22</entry>
+                <entry>$92,575</entry>
+            </row>
+            <row>
+                <entry>Jennifer Chang</entry>
+                <entry>Regional Director</entry>
+                <entry>Singapore</entry>
+                <entry>28</entry>
+                <entry>2010/11/14</entry>
+                <entry>$357,650</entry>
+            </row>
+            <row>
+                <entry>Brenden Wagner</entry>
+                <entry>Software Engineer</entry>
+                <entry>San Francisco</entry>
+                <entry>28</entry>
+                <entry>2011/06/07</entry>
+                <entry>$206,850</entry>
+            </row>
+            <row>
+                <entry>Fiona Green</entry>
+                <entry>Chief Operating Officer (COO)</entry>
+                <entry>San Francisco</entry>
+                <entry>48</entry>
+                <entry>2010/03/11</entry>
+                <entry>$850,000</entry>
+            </row>
+            <row>
+                <entry>Shou Itou</entry>
+                <entry>Regional Marketing</entry>
+                <entry>Tokyo</entry>
+                <entry>20</entry>
+                <entry>2011/08/14</entry>
+                <entry>$163,000</entry>
+            </row>
+            <row>
+                <entry>Michelle House</entry>
+                <entry>Integration Specialist</entry>
+                <entry>Sydney</entry>
+                <entry>37</entry>
+                <entry>2011/06/02</entry>
+                <entry>$95,400</entry>
+            </row>
+            <row>
+                <entry>Suki Burks</entry>
+                <entry>Developer</entry>
+                <entry>London</entry>
+                <entry>53</entry>
+                <entry>2009/10/22</entry>
+                <entry>$114,500</entry>
+            </row>
+            <row>
+                <entry>Prescott Bartlett</entry>
+                <entry>Technical Author</entry>
+                <entry>London</entry>
+                <entry>27</entry>
+                <entry>2011/05/07</entry>
+                <entry>$145,000</entry>
+            </row>
+            <row>
+                <entry>Gavin Cortez</entry>
+                <entry>Team Leader</entry>
+                <entry>San Francisco</entry>
+                <entry>22</entry>
+                <entry>2008/10/26</entry>
+                <entry>$235,500</entry>
+            </row>
+            <row>
+                <entry>Martena Mccray</entry>
+                <entry>Post-Sales support</entry>
+                <entry>Edinburgh</entry>
+                <entry>46</entry>
+                <entry>2011/03/09</entry>
+                <entry>$324,050</entry>
+            </row>
+            <row>
+                <entry>Unity Butler</entry>
+                <entry>Marketing Designer</entry>
+                <entry>San Francisco</entry>
+                <entry>47</entry>
+                <entry>2009/12/09</entry>
+                <entry>$85,675</entry>
+            </row>
+            <row>
+                <entry>Howard Hatfield</entry>
+                <entry>Office Manager</entry>
+                <entry>San Francisco</entry>
+                <entry>51</entry>
+                <entry>2008/12/16</entry>
+                <entry>$164,500</entry>
+            </row>
+            <row>
+                <entry>Hope Fuentes</entry>
+                <entry>Secretary</entry>
+                <entry>San Francisco</entry>
+                <entry>41</entry>
+                <entry>2010/02/12</entry>
+                <entry>$109,850</entry>
+            </row>
+            <row>
+                <entry>Vivian Harrell</entry>
+                <entry>Financial Controller</entry>
+                <entry>San Francisco</entry>
+                <entry>62</entry>
+                <entry>2009/02/14</entry>
+                <entry>$452,500</entry>
+            </row>
+            <row>
+                <entry>Timothy Mooney</entry>
+                <entry>Office Manager</entry>
+                <entry>London</entry>
+                <entry>37</entry>
+                <entry>2008/12/11</entry>
+                <entry>$136,200</entry>
+            </row>
+            <row>
+                <entry>Jackson Bradshaw</entry>
+                <entry>Director</entry>
+                <entry>New York</entry>
+                <entry>65</entry>
+                <entry>2008/09/26</entry>
+                <entry>$645,750</entry>
+            </row>
+            <row>
+                <entry>Olivia Liang</entry>
+                <entry>Support Engineer</entry>
+                <entry>Singapore</entry>
+                <entry>64</entry>
+                <entry>2011/02/03</entry>
+                <entry>$234,500</entry>
+            </row>
+            <row>
+                <entry>Bruno Nash</entry>
+                <entry>Software Engineer</entry>
+                <entry>London</entry>
+                <entry>38</entry>
+                <entry>2011/05/03</entry>
+                <entry>$163,500</entry>
+            </row>
+            <row>
+                <entry>Sakura Yamamoto</entry>
+                <entry>Support Engineer</entry>
+                <entry>Tokyo</entry>
+                <entry>37</entry>
+                <entry>2009/08/19</entry>
+                <entry>$139,575</entry>
+            </row>
+            <row>
+                <entry>Thor Walton</entry>
+                <entry>Developer</entry>
+                <entry>New York</entry>
+                <entry>61</entry>
+                <entry>2013/08/11</entry>
+                <entry>$98,540</entry>
+            </row>
+            <row>
+                <entry>Finn Camacho</entry>
+                <entry>Support Engineer</entry>
+                <entry>San Francisco</entry>
+                <entry>47</entry>
+                <entry>2009/07/07</entry>
+                <entry>$87,500</entry>
+            </row>
+            <row>
+                <entry>Serge Baldwin</entry>
+                <entry>Data Coordinator</entry>
+                <entry>Singapore</entry>
+                <entry>64</entry>
+                <entry>2012/04/09</entry>
+                <entry>$138,575</entry>
+            </row>
+            <row>
+                <entry>Zenaida Frank</entry>
+                <entry>Software Engineer</entry>
+                <entry>New York</entry>
+                <entry>63</entry>
+                <entry>2010/01/04</entry>
+                <entry>$125,250</entry>
+            </row>
+            <row>
+                <entry>Zorita Serrano</entry>
+                <entry>Software Engineer</entry>
+                <entry>San Francisco</entry>
+                <entry>56</entry>
+                <entry>2012/06/01</entry>
+                <entry>$115,000</entry>
+            </row>
+            <row>
+                <entry>Jennifer Acosta</entry>
+                <entry>Junior Javascript Developer</entry>
+                <entry>Edinburgh</entry>
+                <entry>43</entry>
+                <entry>2013/02/01</entry>
+                <entry>$75,650</entry>
+            </row>
+            <row>
+                <entry>Cara Stevens</entry>
+                <entry>Sales Assistant</entry>
+                <entry>New York</entry>
+                <entry>46</entry>
+                <entry>2011/12/06</entry>
+                <entry>$145,600</entry>
+            </row>
+            <row>
+                <entry>Hermione Butler</entry>
+                <entry>Regional Director</entry>
+                <entry>London</entry>
+                <entry>47</entry>
+                <entry>2011/03/21</entry>
+                <entry>$356,250</entry>
+            </row>
+            <row>
+                <entry>Lael Greer</entry>
+                <entry>Systems Administrator</entry>
+                <entry>London</entry>
+                <entry>21</entry>
+                <entry>2009/02/27</entry>
+                <entry>$103,500</entry>
+            </row>
+            <row>
+                <entry>Jonas Alexander</entry>
+                <entry>Developer</entry>
+                <entry>San Francisco</entry>
+                <entry>30</entry>
+                <entry>2010/07/14</entry>
+                <entry>$86,500</entry>
+            </row>
+            <row>
+                <entry>Shad Decker</entry>
+                <entry>Regional Director</entry>
+                <entry>Edinburgh</entry>
+                <entry>51</entry>
+                <entry>2008/11/13</entry>
+                <entry>$183,000</entry>
+            </row>
+            <row>
+                <entry>Michael Bruce</entry>
+                <entry>Javascript Developer</entry>
+                <entry>Singapore</entry>
+                <entry>29</entry>
+                <entry>2011/06/27</entry>
+                <entry>$183,000</entry>
+            </row>
+            <row>
+                <entry>Donna Snider</entry>
+                <entry>Customer Support</entry>
+                <entry>New York</entry>
+                <entry>27</entry>
+                <entry>2011/01/25</entry>
+                <entry>$112,000</entry>
+            </row>
+				</tbody>
+			</tgroup>
+		</table>
+		
+		
+		
+	</conbody>
+
+</concept>

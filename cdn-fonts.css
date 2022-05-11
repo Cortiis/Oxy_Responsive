@@ -1,0 +1,98 @@
+/* cdn-hosted fonts */
+
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-Light.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-Light.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Light.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Light.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Light.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-LightIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-LightIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-LightIt.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-LightIt.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-LightIt.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-Regular.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-Regular.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Regular.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Regular.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Regular.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-RegularIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-RegularIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-RegularIt.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-RegularIt.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-RegularIt.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-Demi.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-Demi.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Demi.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Demi.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Demi.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-DemiIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-DemiIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-DemiIt.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-DemiIt.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-DemiIt.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-Bold.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-Bold.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Bold.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Bold.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-Bold.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Precisely';
+  src: url("https://assets-cdn.precisely.com/secure/Precisely-BoldIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6");
+  src: local("Precisely"), local("Precisely"),
+      url("https://assets-cdn.precisely.com/secure/Precisely-BoldIt.eot?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("embedded-opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-BoldIt.otf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("opentype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-BoldIt.ttf?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("truetype"),
+	    url("https://assets-cdn.precisely.com/secure/Precisely-BoldIt.woff?af60d86808262bc1aee94cdc3c6c7dd65da085f5ab56edd85ef19010ded5c72ae6") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
